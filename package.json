@@ -1,31 +1,34 @@
 {
-	"name": "BooksApp",
-	"version": "0.0.1",
-	"private": true,
-	"scripts": {
-		"start": "node node_modules/react-native/local-cli/cli.js start",
-		"test": "jest",
-		"run:ios": "react-native run-ios",
-		"run:android": "react-native run-android",
-		"emu:android": "~/Library/Android/sdk/tools/emulator -netdelay none -netspeed full -avd NEXUS5API25",
-		"build:android": "cd android && ./gradlew assembleRelease && cd .."
-	},
-	"dependencies": {
-		"react": "16.0.0-alpha.6",
-		"react-native": "0.44.3"
-	},
-	"devDependencies": {
-		"babel-jest": "21.0.2",
-		"babel-preset-react-native": "3.0.2",
-		"jest": "21.0.2",
-		"react-test-renderer": "16.0.0-alpha.6"
-	},
-	"jest": {
-		"preset": "react-native"
-	},
-	"rnpm": {
-		"assets": [
-			"public/fonts"
-		]
-	}
+  "name": "BooksApp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "run:ios": "react-native run-ios",
+    "run:android": "react-native run-android",
+    "emu:android": "~/Library/Android/sdk/tools/emulator -netdelay none -netspeed full -avd NEXUS5API25",
+    "build:android": "cd android && ./gradlew assembleRelease && cd .."
+  },
+  "dependencies": {
+    "enzyme": "^2.9.1",
+    "react": "16.0.0-alpha.6",
+    "react-native": "0.44.3"
+  },
+  "devDependencies": {
+    "babel-jest": "21.0.2",
+    "babel-preset-react-native": "3.0.2",
+    "jest": "21.0.2",
+    "react-addons-test-utils": "^15.6.0",
+    "react-dom": "^15.6.1",
+    "react-test-renderer": "^16.0.0-alpha.6"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "rnpm": {
+    "assets": [
+      "public/fonts"
+    ]
+  }
 }
