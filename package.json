@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "enzyme": "^2.9.1",
+    "moment": "^2.18.1",
     "react": "16.0.0-alpha.6",
     "react-native": "0.44.3",
     "react-navigation": "^1.0.0-beta.11"
