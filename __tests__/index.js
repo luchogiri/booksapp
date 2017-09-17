@@ -2,11 +2,15 @@ import 'react-native';
 import React from 'react';
 import renderer from 'react-test-renderer';
 
-import App from '../lib/app';
+
+import Header from '../lib/components/header';
 
 
-it('renders correctly', () => {
-  const app = renderer.create(
-    <App />
-  );
+
+describe('El componente Header', () => {
+
+  it('deberia ser renderizado', () => {
+    const component = renderer.create(<Header />);
+  });
+
 });
